@@ -8,7 +8,7 @@ public class BallMovement : MonoBehaviour
     public float ExtraSpeed;
     public float MaxExtraSpeed;
 
-    public int HitCounter = 0;
+    private int HitCounter = 0;
 
     private Rigidbody2D rb;
     void Start()
